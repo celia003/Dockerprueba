@@ -24,4 +24,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: celsss/web:latest, celsss/web😒{{ github.sha }} 
+          tags: celsss/web:latest, celsss/we:${{ github.sha }} 
